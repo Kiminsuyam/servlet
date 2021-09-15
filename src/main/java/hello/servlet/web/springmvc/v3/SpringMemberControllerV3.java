@@ -14,6 +14,7 @@ public class SpringMemberControllerV3 {
 
     private MemberRepository memberRepository = MemberRepository.getInstance();
 
+
     //GET으로만 호출되게 제약걸기.
 //    @RequestMapping(value = "/new-form", method = RequestMethod.GET) //PostMan에서 GET인 경우에만 호출됨.
     @GetMapping("/new-form")
